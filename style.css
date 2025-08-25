@@ -7,6 +7,7 @@ html {
     /* The Font Family- Really important!! */
     font-family: Arial, sans-serif;
     box-sizing: border-box;
+    background-color: rgb(190, 221, 250);
 }
 
 /* reset for images to ensure they ar 100% of the parent container width */
@@ -16,8 +17,8 @@ img {
 
 /* The hero section styling- use your OWN Hero Image URL here */
 .hero {
-    background-image: url('images/blue\ banner.jpg');
-    height: 25vh;
+    background-image: url('images/clouds.jpg');
+    height: 35vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -36,10 +37,10 @@ img {
 
 /* nice big font on a banner style background */
 .topic-title{
-    color: rgb(89, 141, 238);
+    color: rgb(255, 255, 255);
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgb(250, 250, 250);
+    background-color: rgba(116, 156, 196, 0.788);
 }
 
 /* Three column grid with a nice big gap */
